@@ -1,0 +1,57 @@
+.home1{
+    height: 600px;
+    width: 1300px;
+}
+
+.home2{
+    position: relative;
+    left: 1100px;
+}
+
+.container{
+    height: 500px;
+    width: 300px;
+    border: 2px solid;
+    position: relative;
+    top: 75px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 50px;
+    font-size: 18px;
+}
+
+.lingkaran{
+    width: 4cm;
+    height: 4cm;
+    background-color: darkgray;
+    border-radius: 50%;
+}
+
+.nama{
+    font-weight: 600;
+}
+
+.GITHUB {
+    display: flex;
+    align-items: center;
+  justify-content: center;
+}
+
+.GITHUB a {
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    font-size: 20px;
+    color: #333;
+    text-decoration: none;
+}
+
+.GITHUB a img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.GITHUB a:hover img {
+    filter: brightness(1.2);
+}
